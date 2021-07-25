@@ -210,6 +210,8 @@
               term2: t2,
               term3: t3
             })
+          }).catch(function(error){
+              console.log(error);
           })
         })
       })
